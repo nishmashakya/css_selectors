@@ -6,7 +6,6 @@
 .content {
 	display: flex;
 	flex-direction: column;
-/*	line-height: 1.5;*/
 }
 
 .songs, .movies, .books {
@@ -15,11 +14,25 @@
 
 
 p img {
-	height: 30vh;
+	height: auto;
 	width: 30vh;
 }
 
 .content > div > p {
 	padding-left: 2vw;
 	padding-right: 2vw;
+}
+
+p > img:hover {
+	box-shadow: 5px 10px 10px #9370db;
+/*	background-color: green;*/
+	transition: 1s box-shadow;
+}
+
+div h1 {
+	background-color: #dcd0ff;
+}
+
+div > p {
+	font-weight: bold;
 }
