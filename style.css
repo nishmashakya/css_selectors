@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.content {
+	display: flex;
+	flex-direction: column;
+/*	line-height: 1.5;*/
+}
+
+.songs, .movies, .books {
+	display: flex;
+}
+
+
+p img {
+	height: 30vh;
+	width: 30vh;
+}
+
+.content > div > p {
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
